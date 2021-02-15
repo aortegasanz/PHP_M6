@@ -21,7 +21,7 @@
     - Exercici 3
     La criba d'Eratóstenes és un algoritme pensat per a trobar nombres primers dins d'un interval donat. 
     Basats en l'informació de l'enllaç adjunt, implementa la criba d'Eratóstenes dins d'una funció, de tal forma que poguem invocar la funció per a un número concret.
-    */
+    */ 
     
     echo "<br/> <strong>NIVEL 3</strong>";
     echo "<br/>";

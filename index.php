@@ -5,5 +5,5 @@
     include("nivell2.php");
     include("nivell3.php");
     echo "<br/>";
-    echo "<br/> <strong> FIN </strong>";
+    echo "<br/> <strong> FIN </strong>"; 
 ?>

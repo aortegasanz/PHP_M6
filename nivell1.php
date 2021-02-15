@@ -3,10 +3,13 @@
     NIVELL 1 
     - Exercici 1
     Programa la funció "resta" que, donats dos paràmetres ens retorni la resta dels dos números.
+
     - Exercici 2
     Programa una lògica que, donat un número qualsevol(per exemple,la teva edat) ens digui si és parell o imparell mitjançant un missatge per pantalla.
+
     - Exercici 3
     Agafa la lògica de l'exercici 2 i encapsulala en una funció de nom parell_o_imparell. Invoca aquesta funció per a comprovar que funciona correctament.
+    
     - Exercici 4
     Programa un bucle que compti fins a 10, mostrant cada  número per pantalla.
     */
