@@ -55,4 +55,25 @@
 
     echo "<br/> <strong>Exercici 3</strong>";
     echo "<br/> Criba d'Erat&oacute;stenes";
+    function CribaEratosthenes($numero) {
+       $todos = array();
+       $primo = 1;
+       echo "<br/>1 2";
+       $i = 3;
+       while($i <= $numero) {
+            if(!in_array($i, $todos)) {
+                echo " ",$i;
+                $primo += 1;
+                $j = $i;
+                while($j <= ($numero/$i)) {
+                   array_push($todos, $i*$j);
+                   $j += 1;
+                }
+             }
+            $i += 2;
+       }
+       echo "<br/>";
+       return;
+    }
+    CribaEratosthenes(99);
 ?>
